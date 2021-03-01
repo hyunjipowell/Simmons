@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시몬스침대 map</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo_simmons_large_icon.ico">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/map.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/style.js"></script>
+</head>
+<body>
+
+
+    <header>
+        <div class="headTop">
+
+            <div class="center clearFix headTopWrap">
+                <h1 class="logo"><a href="index.html"><img src="images/header_logo.png" alt="simons logo"></a></h1>
+                <ul class="headIcon__right">
+                    <li><a href="login.html"><img src="images/iconmonstr-user-circle-thin-24.png" alt="user"></a></li>
+                    <li><a href="#"><img src="images/iconmonstr-shopping-cart-thin-24.png" alt="cart"></a></li>
+                </ul>
+                <div class="hamBtn"><a href="#"></a></div>
+            </div>
+        </div>
+        
+        <!-- head bottom -->
+        <div class="headBottom">
+            <div class="center">
+                <div class="navWrap content">
+                    <div>
+                        <ul id="nav">
+                            <li><a href="#">Beautyrest BLACK</a>
+                                <div class="navBox">
+                                    <ul class="navSub">
+                                        <li><a href="#">the BLACK</a></li>
+                                        <li><a href="#">MATTRESS</a></li>
+                                        <li><a href="#">FRAME</a></li>
+                                        <li><a href="#">ROOM SET</a></li>
+                                        <li><a href="#">FOUNDATION</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">COLLECTION</a>
+                                <div class="navBox">
+                                    <ul class="navSub">
+                                        <li><a href="#">Beautyrest</a></li>
+                                        <li><a href="#">N32</a></li>
+                                        <li><a href="#">KENOSHA</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">PRODUCT</a>
+                                <div class="navBox">
+                                    <ul class="navSub">
+                                        <li><a href="#">MATTRESS</a></li>
+                                        <li><a href="#">FRAME</a></li>
+                                        <li><a href="#">ROOM SET</a></li>
+                                        <li><a href="#">FOUNDATION</a></li>
+                                        <li><a href="#">FURNITURE</a></li>
+                                        <li><a href="#">BEDDING</a></li>
+                                        <li><a href="#">FRAGRANCE</a></li>
+                                        <li><a href="#">ETC</a></li>
+                                    </ul>
+                            </li>
+                            <li class="navLine"><a href="#">ONLINE STORE</a></li>
+                            <li><a href="#">ABOUT US</a>
+                                <div class="navBox">
+                                    <ul class="navSub">
+                                        <li><a href="#">HERITAGE</a></li>
+                                        <li><a href="#">MEDIA</a></li>
+                                        <li><a href="#">SIMMONS IN HOTEL</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">SIMMONS Factorium</a>
+                                <div class="navBox">
+                                    <ul class="navSub">
+                                        <li><a href="#">INTRO</a></li>
+                                        <li><a href="#">R&D</a></li>
+                                        <li><a href="#">TERRACE</a></li>
+                                        <li><a href="#">오시는길</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="#">SIMMONS GALLERY</a></li>
+                            <li class="navLine"><a href="map.html">매장 찾기</a></li>
+                            <ul class="rightNav">
+                                <li><a href="login.html">로그인</a></li>
+                                <li><a href="#">주문내역</a></li>
+                                <li><a href="#">고객센터</a></li>
+                            </ul>
+                            <div class="rightNav__booking"><a href="#"><img src="images/simmons_pc_btn_banner.jpg" alt=""></a></div>
+                            <div class="rightNav__search">
+                                <form class="search">
+                                    <input type="text" placeholder="Search">
+                                    <a href="#void"><img src="images/iconmonstr-search-thin-16.png" alt="search"></a>
+                                </form>
+                            </div>
+                
+                            <ul class="rightNav__sns">
+                                <li><a href="#"><img src="images/iconmonstr-facebook-1-24.png" alt="facebook"></a></li>
+                                <li><a href="#"><img src="images/iconmonstr-instagram-11-24.png" alt="instagram"></a></li>
+                                <li><a href="#"><img src="images/iconmonstr-youtube-6-24.png" alt="youtube"></a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<section id="mapBox" class="center">
+    <h2 class="blind">맵</h2>
+    <div id="map"></div>
+    <div class="mapWrap">
+        <form action="" method="get" id="map-form">
+            <p>매장찾기</p>
+            <div class="map__1">
+                <input type="search" name="search">
+                <button></button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+<footer>
+    <div class="footTop">
+        <div class="center footTopWrap">
+            <h3 class="footLogo"><a href="#void"><img src="images/footer_logo.png" alt="foot logo"></a></h3>
+           
+            <ul class="footWrap">
+                <li><a href="#void">이용약관</a></li>
+                <li><a href="#void">개인정보처리방침</a></li>
+                <li><a href="#void">고객센터</a></li>
+            </ul>
+            <ul class="sns">
+                <li><a href="#void"><img src="images/footer_sns03.png" alt="faceb"></a></li>
+                <li><a href="#void"><img src="images/footer_sns02.png" alt="youtube"></a></li>
+                <li><a href="#void"><img src="images/footer_sns01.png" alt="instagram"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footBottom">
+        <div class="center">
+            <address>
+                <p>
+                    <span>(주)시몬스</span>
+                    <span>주소: 경기도 이천시 모가면 사실로 1000</span>
+                    <span>대표: 안정호</span>
+                    <span>고객센터:1899-8182</span>
+                </p>
+                <p>
+                    <span>사업자등록번호: 126-81-24808</span>
+                    <span>통신판매업신고: 제2014-경기이천-0135호</span>
+                </p>
+                <p>
+                    <span>개인정보 관리책임자: 이정호</span>
+                    <span>호스팅 서비스 사업자: ㈜가비아</span>
+                </p>
+            </address>
+            <p class="contact"><a href="#void">Contact to : master @ simmons.co.kr</a></p>
+            <div class="footLogo__lg"></div>
+            <div class="lgLogo"><img src="images/footer_lg.png" alt="LG U+">
+                <p><span>고객님은 안전거래를 위해 현금 등으로 결제 시 모든 금액에 대하여 본 쇼핑몰에서 가입한</span> <span class="featured">구매안전서비스</span> <span>소비자피해보상보험 서비스를 이용하실 수 있습니다.<span></span></p>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+
+
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=856ce2e910186e5fb3b82143dd0ea268&libraries=services"></script>
+<script>
+    var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+        mapOption = { 
+            center: new kakao.maps.LatLng(37.5648475,126.9813802,19), // 지도의 중심좌표 구글지도에서 검색해서 주소창에 좌표뜸
+            level: 4 // 지도의 확대 레벨
+        };
+    
+    var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+    
+    var imageSrc = 'images/icon_store.png', // 마커이미지의 주소입니다    
+        imageSize = new kakao.maps.Size(99, 87), // 마커이미지의 크기입니다
+        imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+        
+    // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+        markerPosition = new kakao.maps.LatLng(37.5648475,126.9813802,19); // 마커가 표시될 위치입니다
+    
+    // 마커를 생성합니다
+    var marker = new kakao.maps.Marker({
+        position: markerPosition, 
+        image: markerImage // 마커이미지 설정 
+    });
+    
+    // 마커가 지도 위에 표시되도록 설정합니다
+    marker.setMap(map);  
+</script>
+
+</body>
+</html>
